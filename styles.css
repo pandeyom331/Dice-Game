@@ -18,12 +18,12 @@ h1 {
   font-family: 'Lobster', cursive;
   text-shadow: 5px 0 #232931;
   font-size: 4rem;
-  color: #4ECCA3;
+  color: #FFFFFF;
 }
 
 p {
   font-size: 2rem;
-  color: #4ECCA3;
+  color: #FFFFFF;
   font-family: 'Indie Flower', cursive;
 }
 
@@ -78,4 +78,29 @@ footer {
    margin-left: 42.5%;
    margin-top: 5%;
    margin-bottom: 2%;
+}
+
+@media (max-width: 1000px) {
+#footer {
+   padding: 4% 3%;
+   height: 7vh;
+   font-weight: bold;
+ }
+}
+
+/* FOOTER */
+#footer {
+  padding: 2% 1%;
+  text-align: center;
+  background-color: grey;
+  color: #fff;
+}
+
+.git {
+  color: #fff;
+  margin: 5px 5px;
+}
+
+.git:hover {
+  color: cyan;
 }
